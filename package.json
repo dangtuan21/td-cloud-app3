@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf package-lock.json node_modules ",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
@@ -22,7 +23,8 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
-    "rxjs": "^5.5.6",
+    "rxjs": "6.0.0",
+    "rxjs-compat": "^6.6.3",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
@@ -43,6 +45,6 @@
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "~2.5.3"
+    "typescript": "2.8"
   }
 }
